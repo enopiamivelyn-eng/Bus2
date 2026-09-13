@@ -15,6 +15,7 @@ interface Booking {
   seat: string;
   price: string;
   status: 'upcoming' | 'completed' | 'cancelled';
+  deletedAt?: string;
 }
 
 export default function MyBookingsPage() {
